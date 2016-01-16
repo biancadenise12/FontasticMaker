@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.thesis.fontasticmaker_multipleactivities.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:id="@+id/mainmenu_title"
+        android:src="@mipmap/mainmenu_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_gravity="center"
+        android:contentDescription="@string/mainmenu_title" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/imagebutton_create"
+            android:src="@mipmap/imagebutton_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:contentDescription="@string/mainmenu_create" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:paddingStart="120dp"
+        android:paddingEnd="120dp">
+
+        <ImageButton
+            android:id="@+id/imagebutton_help"
+            android:src="@mipmap/imagebutton_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/mainmenu_help"/>
+
+        <ImageButton
+            android:id="@+id/imagebutton_about"
+            android:src="@mipmap/imagebutton_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:contentDescription="@string/mainmenu_about"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

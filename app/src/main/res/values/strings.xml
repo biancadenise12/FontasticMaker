@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FontasticMaker_MultipleActivities</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- images_contentDescriptions -->
+    <string name="mainmenu_title">Title</string>
+    <string name="mainmenu_create">Create Image Button</string>
+    <string name="mainmenu_help">Help Image Button</string>
+    <string name="mainmenu_about">About Image Button</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+</resources>
