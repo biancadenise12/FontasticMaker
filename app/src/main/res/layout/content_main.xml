@@ -32,6 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
+            android:hapticFeedbackEnabled="true"
             android:contentDescription="@string/mainmenu_create" />
 
     </LinearLayout>
@@ -41,15 +42,15 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.3"
-        android:layout_gravity="center"
-        android:paddingStart="120dp"
-        android:paddingEnd="120dp">
+        android:gravity="center" >
 
         <ImageButton
             android:id="@+id/imagebutton_help"
             android:src="@mipmap/imagebutton_help"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:hapticFeedbackEnabled="true"
             android:contentDescription="@string/mainmenu_help"/>
 
         <ImageButton
@@ -57,9 +58,9 @@
             android:src="@mipmap/imagebutton_about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|top"
-            android:contentDescription="@string/mainmenu_about"
-            />
+            android:layout_gravity="center|top"
+            android:hapticFeedbackEnabled="true"
+            android:contentDescription="@string/mainmenu_about" />
 
     </LinearLayout>
 
